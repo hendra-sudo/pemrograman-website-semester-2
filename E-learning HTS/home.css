@@ -1,0 +1,61 @@
+body{
+
+    margin top: -20;
+    padding: 0;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.div{
+  width:300%;
+	height:110px;
+	background:blue;
+
+}
+
+.atas{
+  width:300%;
+  height:130px;
+  background:blue;
+  background-position: left top;
+}
+
+title{
+  color: white;
+  font-size: 40px;
+  line-height: 0.8;
+}
+
+h1{
+ text-align: left;
+ color: white;
+ font-size: 40px;
+ line-height:-2;
+
+}
+
+h2{
+ text-align: left;
+ color: white;
+ font-size: 25px;
+ line-height: -5;
+}
+
+.box{
+  width: 500px;
+  height:500px;
+  background: #000;
+  color: #fff;
+  top: 70%;
+  left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  background-color:rgba(0,0,0,0.8);
+  font-size: 14px;
+}
