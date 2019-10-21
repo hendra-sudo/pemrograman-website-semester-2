@@ -1,0 +1,268 @@
+
+*{
+    margin: 0;
+}
+
+.cover{
+  width: 1349px;
+  height: 605px;
+  opacity: 50px;
+  position: center;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.kelas_vii{
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  top: 150px;
+  left: 650px;
+}
+
+.kelas_vii:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+
+}
+
+.kelas_viii{
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  top: 300px;
+  left: 850px;
+}
+.kelas_viii:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+
+}
+.kelas_ix{
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  top: 450px;
+  left: 650px;
+}
+.kelas_ix:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.cover{
+  width: 1349px;
+  height: 620px;
+  opacity: 50px;
+  position: center;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.header{
+    margin-top: -47px;
+    width: 100%;
+    height: 100px;
+    background-color: #0000FF;
+}
+
+.page-footer{
+  transform: translateY(-4%);
+  width: 100%;
+  height: 100px;
+  background-color: #0000FF;
+}
+
+.footer-copyright{
+  transform: translateY(-20%);
+  width: 849px;
+  height: 20px;
+  background-color:rgba(135,206,250,0.8);
+  padding-left: 500px;
+  font-size: 15px;
+  color: black;
+  font-family: Segoe UI;
+}
+
+
+
+.header h1{
+    padding-top: 10px;
+    padding-left: 110px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-size: 50px;
+    color: snow;
+    font-family: Segoe UI;
+}
+.header h2{
+    padding-left: 110px;
+    font-size: 15px;
+    color: snow;
+    font-family: Segoe UI;
+}
+.header h5{
+    padding-left: 10px;
+    font-size: 15px;
+    color: black;
+    font-family: Segoe UI;
+}
+
+.logo_pojok_kiri{
+  width: 90px;
+  height: 90px;
+  padding-top: 5px;
+  padding-left: 5px;
+  position: absolute;
+}
+
+
+
+h3{
+ text-align: left;
+ color: black;
+ font-size: 14px;
+ font-weight: bold;
+ line-height: -5;
+ font-family: Comic Sans MS;
+}
+
+h4{
+ text-align: left;
+ color: black;
+ font-size: 12px;
+ line-height: -5;
+ font-family: Comic Sans MS;
+}
+
+h5{
+  text-align: left;
+  font-size: 18px;
+  font-family: Segoe UI;
+  top: 100px;
+  left: 10px;
+}
+
+.page-footer h8{
+    padding-top: 10px;
+    padding-left: 110px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-size: 50px;
+    color: snow;
+    font-family: Segoe UI;
+}
+
+.contack{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  width: 300px;
+  text-align: center;
+
+  padding-top: 0px;
+  padding-left: 800px;
+  text-align: left;
+  font-size: 20px;
+  color: snow;
+  font-family: Segoe UI;
+  font-weight: bold;
+}
+
+
+.icon_pelajaran{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 110px;
+  left: 450px;
+}
+
+.icon_pelajaran:hover{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+.middle{
+  position: absolute;
+  top: 20%;
+  transform: translateY(-75%);
+  width: 85%;
+  text-align: center;
+}
+.btn{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: rgba(173,196,222);
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+}
+.btn i{
+  line-height: 50px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+.btn:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #3498db;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.btn:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+
+
+
+
+
+   .menu{
+        width: 100%;
+        background:#142b47;
+
+      }
+      .menu ul {
+        margin: 0;
+        padding:0;
+        list-style: none;
+        line-height: 20px;
+      }
+      .menu li{
+        float: left;
+      }
+      .menu ul li a{
+        background: #1E90FF;
+        text-decoration: none;
+        width: 80px;
+        display: block;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 10px;
+        font-family: sans-serif;
+        letter-spacing: 0.5px;
+      }
+      .menu li a:hover{
+        color: #000000;
+        opacity: 0.5;
+        font-size: 10px;
+      }
